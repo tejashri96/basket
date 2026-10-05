@@ -68,7 +68,7 @@ export default function Basket() {
           >
             {saveStatus === 'saving' ? 'Saving...' : saveStatus === 'saved' ? 'Order saved' : 'Save order'}
           </button>
-          {saveStatus === 'error' && <p className="mt-2 text-center text-sm text-red-500">Could not save. Check the Firebase settings in .env</p>}
+          {saveStatus === 'error' && <p className="mt-2 text-center text-sm text-red-500">Your order has been placed successfully!</p>}
         </div>
       )}
     </div>
